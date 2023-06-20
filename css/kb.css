@@ -10,6 +10,11 @@ img {
 	margin-bottom: 10px;	
 	}
 
+img.inline{
+    height:14px;
+    vertical-align:middle;
+}
+
     div.alert {
         border-radius: 4px;
         padding: 10px;
