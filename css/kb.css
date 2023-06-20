@@ -12,6 +12,7 @@ img {
 img.inline {
   height: 14px;
   vertical-align: middle;
+  box-shadow: none;
 }
 
 div.alert {
