@@ -19,6 +19,7 @@ div.alert {
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 10px;
+  box-shadow: 0.8px 1.6px 1.6px hsl(0deg 0% 0% / 0.48);
 }
 div.alert::before {
   font-family: "Font Awesome 5 Free";
