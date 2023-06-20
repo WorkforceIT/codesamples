@@ -1,3 +1,4 @@
+<style>
 img {
 	max-height:200px;
 	vertical-align:middle; 
@@ -64,3 +65,4 @@ img {
         content: "\f071"; /* Font Awesome icon code for an exclamation circle */
         color: #f5be00;
     }
+</style>
