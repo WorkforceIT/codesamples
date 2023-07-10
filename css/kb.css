@@ -21,6 +21,7 @@ img.inlinenonicon {
   margin-right: auto;
   max-width: 400px;
   vertical-align: middle;
+  box-shadow: none;
 }
 
 div.alert {
