@@ -24,59 +24,92 @@ img.inlinenonicon {
   box-shadow: none;
 }
 
+.toc {
+  display: block;
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  float: right
+}
+
+.tocul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px
+}
+
+
 div.alert {
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 10px;
-  box-shadow:.8px 1.6px 1.6px hsl(0deg 0% 0% / .48);
+  box-shadow: .8px 1.6px 1.6px hsl(0deg 0% 0% / .48);
 }
+
 div.alert::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 10px;
 }
+
 /* Styles for [!NOTE] */
 div.note {
   background-color: #efd9fd;
   border-left: 6px solid #990df2;
 }
+
 div.note::before {
-  content: "\f05a"; /* Font Awesome icon code for a lightbulb */
+  content: "\f05a";
+  /* Font Awesome icon code for a lightbulb */
   color: #990df2;
 }
+
 /* Styles for [!TIP] */
 div.tip {
   background-color: #dff6dd;
   border-left: 6px solid #32cd32;
 }
+
 div.tip::before {
-  content: "\f0eb"; /* Font Awesome icon code for a lightbulb */
+  content: "\f0eb";
+  /* Font Awesome icon code for a lightbulb */
   color: #32cd32;
 }
+
 /* Styles for [!IMPORTANT] */
 div.important {
   background-color: #d7eaf8;
   border-left: 6px solid #2589d2;
 }
+
 div.important::before {
-  content: "\f06a"; /* Font Awesome icon code for an exclamation triangle */
+  content: "\f06a";
+  /* Font Awesome icon code for an exclamation triangle */
   color: #2589d2;
 }
+
 /* Styles for [!CAUTION] */
 div.caution {
   background-color: #fde7e9;
   border-left: 6px solid #e51326;
 }
+
 div.caution::before {
-  content: "\f057"; /* Font Awesome icon code for an exclamation circle */
+  content: "\f057";
+  /* Font Awesome icon code for an exclamation circle */
   color: #e51326;
 }
+
 /* Styles for [!WARNING] */
 div.warning {
   background-color: #fff4ce;
   border-left: 6px solid #f5be00;
 }
+
 div.warning::before {
-  content: "\f071"; /* Font Awesome icon code for an exclamation circle */
+  content: "\f071";
+  /* Font Awesome icon code for an exclamation circle */
   color: #f5be00;
 }
