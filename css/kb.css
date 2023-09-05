@@ -24,7 +24,7 @@ img.inlinenonicon {
   box-shadow: none;
 }
 
-p.imgcaption {
+.imgcaption {
   text-align:center;
   max-width:400px;
   font-size: 10px;
