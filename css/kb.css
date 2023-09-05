@@ -24,6 +24,18 @@ img.inlinenonicon {
   box-shadow: none;
 }
 
+p.imgcaption {
+  text-align:center;
+  max-width:400px;
+  font-size: 10px;
+  color: #696969;
+  border: 1px solid #696969;border-radius: 4px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .toc {
   display: block;
   width: 200px;
@@ -33,14 +45,14 @@ img.inlinenonicon {
   float: right
 }
 
-.tocul {
+.toc ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   font-size: 12px
 }
 
-div.styledsectionheader {
+div.wrapper {
   display: flex;
 }
 
